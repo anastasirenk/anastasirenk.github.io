@@ -1,0 +1,36 @@
+body {font-family: Georgia;
+     font-style: italic;
+ }
+
+h1  {
+	 font-size: 50px;
+	 font-weight: bold;
+	 text-align: center;
+	 background: linear-gradient(to top right, red, darkblue);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     color: #0B2349;
+     display: table;
+     margin: 20px auto;
+}
+
+
+ul {
+     list-style: none;
+     margin-left:0;
+     padding-left:0; 
+}
+
+li {
+	 font-size: 30px;
+	 font-weight: bold;
+}
+
+li:first-child {background:linear-gradient(to top, salmon, red)}
+li:last-child {background:linear-gradient(to bottom, blueviolet, indigo)}
+li:nth-child(2) {background:linear-gradient(to right, orange, orangered) }
+li:nth-child(3) {background:linear-gradient(to top right, orange, yellow)}
+li:nth-child(4) {background:linear-gradient(to top left, seagreen, darkgreen)}
+li:nth-child(5) {background:linear-gradient(to bottom left, deepskyblue, steelblue)}
+li:nth-child(6) {background:linear-gradient(to bottom right, blue, navy)}
+li:first-letter {color: white}
